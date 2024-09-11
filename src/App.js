@@ -68,6 +68,7 @@ function App() {
           placeholder="Address, ENS, or email"
           className="input"
         />
+        <br/>
         <button type="submit" className="button">Search</button>
         <button type="button" className="button" onClick={handleReset}>Reset</button>
       </form>
