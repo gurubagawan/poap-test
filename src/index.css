@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container{
+  padding-top: 20px;
+}
+
+.input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.poap-image {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.poap-container{
+  margin-top: 20px
+}
+.poap-details{
+  padding: 10px;
+}
+
+.poap-details:hover{
+  background-color: #5cb6e3;
+  border-radius: 20px;
+  color: whitesmoke
+}
