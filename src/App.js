@@ -13,7 +13,6 @@ function App() {
     const url = `${apiUrl}/actions/scan/${address}`;
     setLoading(true);
 
-
     try {
       const response = await fetch(url, {
         method: 'GET',
