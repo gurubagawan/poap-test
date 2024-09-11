@@ -3,7 +3,7 @@ export const PoapDisplay = ({ poaps }) => (<div className="poap-container">
   <div className="d-flex row">
     {poaps.map((poap) => (
       <div key={poap.id} className="col-12 col-sm-4 col-lg-2 poap-details">
-        <a href={`https://poap.gallery/drop/${poap.drop_id}`} target="_blank" rel="noopener noreferrer">
+        <a href={`https://poap.gallery/drop/${poap.event.id}`} target="_blank" rel="noopener noreferrer">
           <img src={`${poap.event.image_url}?size=small`} alt={poap.id} className="poap-image" />
         </a>
         <div className="poap-details">
@@ -12,7 +12,7 @@ export const PoapDisplay = ({ poaps }) => (<div className="poap-container">
             {poap.event.name}
           </b>
 
-          <p style={{marginTop: '10px'}}>
+          <p style={{ marginTop: '10px' }}>
             Id:&nbsp;
             <b>
               {poap.tokenId}

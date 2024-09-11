@@ -28,7 +28,7 @@ function App() {
       }
 
       const data = await response.json();
-      if( data.length === 0 ){
+      if (data.length === 0) {
         setError('No POAPs found for this user')
       }
       setPoaps(data)
