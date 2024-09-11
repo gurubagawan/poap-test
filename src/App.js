@@ -7,9 +7,9 @@ function App() {
   const [poaps, setPoaps] = useState(null);
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
+  const apiUrl = process.env.REACT_APP_API_URL;
 
   const fetchPOAPs = async (address) => {
-    const apiUrl = process.env.REACT_APP_API_URL;
     const url = `${apiUrl}/actions/scan/${address}`;
     setLoading(true);
 
